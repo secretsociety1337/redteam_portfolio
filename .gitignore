@@ -1,0 +1,54 @@
+# Ignore Python bytecode files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Ignore virtual environment directories (if using virtualenv, venv, etc.)
+venv/
+env/
+.venv/
+
+# Ignore IDE/editor files (if using VSCode, Sublime, etc.)
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore log files
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Ignore environment files (like .env with API keys or sensitive info)
+.env
+*.env
+.env.local
+.env.*.local
+
+# Ignore test output files
+*.coveragerc
+coverage/
+
+# Ignore backup and recovery files
+*.bak
+*.tmp
+*.swp
+
+# Ignore specific tool config files (if any)
+.burp/
+nmap/
+
+# If you use specific directories for scripts or tools, you might want to ignore them:
+# For example, if you have a separate folder for bash scripts:
+scripts/
+
+# Ignore general screenshot and image files if they are temporary or oversized
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.bmp

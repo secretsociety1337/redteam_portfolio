@@ -1,0 +1,7 @@
+Commands that work 
+cd or cd .. 
+upload 
+download 
+keylog_start
+keylog_stop
+keylog_dump # It saves the keylogger file but hangs up that part still needs updating 
